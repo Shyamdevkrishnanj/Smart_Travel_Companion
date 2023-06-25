@@ -1,12 +1,12 @@
 import React from "react";
 import './home.css'
 import './home.scss';
-import video from '../../video for website/video.mp4'
+import video from 'C:\\Users\\navne\\Documents\\GitHub\\Smart_Travel_Companion\\travel\\src\\Assets\\video.mp4'
 import {GrLocation} from 'react-icons/gr'
 import { HiFilter } from 'react-icons/hi'
 import { FiFacebook } from 'react-icons/fi'
 import { AiOutlineInstagram } from 'react-icons/ai'
-import { SiTripadvisor } from 'react-icons/sh'
+import { FaTripadvisor } from 'react-icons/fa'
 import { BsListTask } from 'react-icons/bs'
 import { TbApps } from 'react-icons/tb'
 const Home = () => {
@@ -54,7 +54,7 @@ const Home = () => {
                         <div className="rightIcons">
                         <FiFacebook className="icon"/>
                         <AiOutlineInstagram className="icon" />
-                        <SiTripadvisor  className="icon" />
+                        <FaTripadvisor  className="icon" />
                           </div>
                           <div className="leftIcons">
                          <BsListTask className="icon" /> 

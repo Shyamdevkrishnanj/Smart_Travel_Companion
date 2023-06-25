@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import './footer.css';
-import video2 from './video2.mp4';
-import {Fisend} from 'react-icons/fi';
+import video from '../../Assets/video.mp4';
+import {FiSend} from 'react-icons/fi';
 import {MdOutlineTravelExplore} from 'react-icons/md';
-import {AioutlineTwitter} from 'react-icons/ai';
+import {AiOutlineTwitter} from 'react-icons/ai';
 import {AiFillYoutube} from 'react-icons/ai';
 import {AiFillInstagram} from 'react-icons/ai';
 import {FaTripadvisor} from 'react-icons/fa';
@@ -19,10 +19,9 @@ const Footer = () => {
     }, []);
     return (
     <section className="footer">
-         <div className="videoDiv">
-            <video src = {video2} loop autoplay muted
-            type="viedo/mp4"></video>
-         </div>
+        <div className="videoDiv">
+            <video src={video} muted autoPlay loop type="video/mp4"></video>
+        </div>
 
          <div className="secContent container">
             <div className="contactDiv flex">
@@ -36,7 +35,7 @@ const Footer = () => {
                     placeholder="Enter your email Address"/>
                     <button data-aos="fade-up"
                     className="btn flex"type='submit'>
-                        SEND <Fisend classname="icon"/>
+                        SEND <FiSend classname="icon"/>
                     </button>
                 </div>
             </div>
@@ -58,7 +57,7 @@ const Footer = () => {
                         </div>
 
                          <div className="footerSocials flex">
-                            <AioutlineTwitter className="icon"/>
+                            <AiOutlineTwitter className="icon"/>
                             <AiFillYoutube className="icon"/>
                             <AiFillInstagram className="icon"/>
                             <FaTripadvisor className="icon"/>

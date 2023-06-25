@@ -3,17 +3,16 @@ import './main.css'
 import './main.scss';
 import { HiOutlineLocationMarker } from 'react-icons/hi'
 import { HiOutlineClipboardCheck } from 'react-icons/hi' 
-import img from '../../Assets/img(1).jpg'
-import img2 from '../../Assets/img(2).jpg'
-import img3 from '../../Assets/img(3).jpg'
-import img4 from '../../Assets/img(4).jpg'
-import img5 from '../../Assets/img(5).jpg'
-import img6 from '../../Assets/img(6).jpg'
-import img7 from '../../Assets/img(7).jpg'
-import img8 from '../../Assets/img(8).jpg'
-import img9 from '../../Assets/img(9).jpg'
+import img from 'C:\\Users\\navne\\Documents\\GitHub\\Smart_Travel_Companion\\travel\\src\\Assets\\img(1).jpeg'
+import img2 from 'C:\\Users\\navne\\Documents\\GitHub\\Smart_Travel_Companion\\travel\\src\\Assets\\img(2).jpeg'
+import img3 from 'C:\\Users\\navne\\Documents\\GitHub\\Smart_Travel_Companion\\travel\\src\\Assets\\img(3).jpeg'
+import img4 from 'C:\\Users\\navne\\Documents\\GitHub\\Smart_Travel_Companion\\travel\\src\\Assets\\img(4).jpeg'
+import img5 from 'C:\\Users\\navne\\Documents\\GitHub\\Smart_Travel_Companion\\travel\\src\\Assets\\img(5).jpeg'
+import img6 from 'C:\\Users\\navne\\Documents\\GitHub\\Smart_Travel_Companion\\travel\\src\\Assets\\img(6).jpeg'
+import img7 from 'C:\\Users\\navne\\Documents\\GitHub\\Smart_Travel_Companion\\travel\\src\\Assets\\img(7).jpeg'
 
 const Data =[
+    
     {
      id:1,
      imgSrc: img,
@@ -91,26 +90,6 @@ const Data =[
     },
 
 
-    {
-        id: 8,
-        imgSrc: img8,
-        destTitle: 'taj mahal',
-        location: 'india',
-        grade: 'CULTURAL RELAX',
-        fees: '$700',
-        description: 'th'
-    },
-
-
-    {
-        id: 9,
-        imgSrc: img9,
-        destTitle: 'bali island',
-        location: 'indonesia',
-        grade: 'CULTURAL RELAX',
-        fees: '$700',
-        description: 'th'
-    },
     
 ]
 
@@ -127,7 +106,7 @@ const Main = () => {
             <div className="secContent grid">
 
               {
-                Data.map(({id, imagSrc, destTitle, location, grade, fees, description})=>{
+                Data.map(({id, imgSrc, destTitle, location, grade, fees, description})=>{
                     return(
                         <div key={id}className="singleDestination">
                           <div className="imageDiv">
