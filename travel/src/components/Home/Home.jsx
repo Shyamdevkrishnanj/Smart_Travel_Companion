@@ -1,11 +1,14 @@
 import React from "react";
 import './home.css'
-<<<<<<< HEAD
 import './home.scss';
-=======
->>>>>>> 31811d637ffcfcac63227cb47de624e7e8f0a6de
 import video from '../../video for website/video.mp4'
 import {GrLocation} from 'react-icons/gr'
+import { HiFilter } from 'react-icons/hi'
+import { FiFacebook } from 'react-icons/fi'
+import { AiOutlineInstagram } from 'react-icons/ai'
+import { SiTripadvisor } from 'react-icons/sh'
+import { BsListTask } from 'react-icons/bs'
+import { TbApps } from 'react-icons/tb'
 const Home = () => {
     return (
         <section className="home">
@@ -18,7 +21,7 @@ const Home = () => {
                 <span className="smallTexxt">
                     Our Packages
                 </span>
-
+              </div>
 
                 <h1 className="homeTitle">
                     Search your holday
@@ -43,6 +46,21 @@ const Home = () => {
                     <input type="range" max="5000" min ="1000">
                         
                     </input>
+                    <div className="searchOptions flex">
+                      <HiFilter classNmae="icon"/>
+                      <span>MORE FILTERS</span>
+
+                      <div className="homeFooterIcons flex">
+                        <div className="rightIcons">
+                        <FiFacebook className="icon"/>
+                        <AiOutlineInstagram className="icon" />
+                        <SiTripadvisor  className="icon" />
+                          </div>
+                          <div className="leftIcons">
+                         <BsListTask className="icon" /> 
+                         <TbApps className="icon" /> 
+                        </div>
+                    </div>
                    </div>
                    
                    </div>
