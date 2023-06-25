@@ -1,6 +1,9 @@
 import React from "react";
 import './home.css'
+<<<<<<< HEAD
 import './home.scss';
+=======
+>>>>>>> 31811d637ffcfcac63227cb47de624e7e8f0a6de
 import video from '../../video for website/video.mp4'
 import {GrLocation} from 'react-icons/gr'
 const Home = () => {
